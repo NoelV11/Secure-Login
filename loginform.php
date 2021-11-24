@@ -46,6 +46,15 @@ if ($upass == ''){
               ?>    <script type="text/javascript">
                 alert("Username or Password Not Registered! Contact Your administrator.");
                 window.location = "index.php";
+function message()
+{
+alert("You have logged in succesfully!");
+}
+</script>
+</head>
+<body onload="message()">
+    <center><p><b1>Your Credentials are secure in the Secure Login Website</b1></p></center>
+    <center><img src = "Lock.jfif"></center>    
                 </script>
         <?php
  
